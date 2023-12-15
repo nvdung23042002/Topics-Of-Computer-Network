@@ -1,0 +1,18 @@
+{
+  "ADDRESS": "Address",
+  "HEIGHT": "Height",
+  "REACH": "Reach",
+  "WEIGHT": "Weight",
+  "AFFILIATE": "Affiliate",
+  "MATCH_RECORD": "Record of match",
+  "MATCH_VIDEO": "Video of match",
+  "RELATED_ARTICLE": "Related articles",
+  "SEE_MORE": "See more",
+  "SEE_LESS": "See less",
+  "WIN": "Win",
+  "LOSE": "Lose",
+  "DRAW": "Draw",
+  "MATCH_WIN": "Match win",
+  "MATCH_LOSE": "Match lose",
+  "MATCH_DRAW": "Match draw"
+}

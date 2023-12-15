@@ -1,0 +1,12 @@
+{
+  "FIELD_REQUIRED": "{{fieldName}}が必須項目です。",
+  "REQUIRED": "必須項目に入力してください。",
+  "MAX_LENGTH_INPUT": "{{length}}桁以下に入力してください",
+  "EMAIL_INVALID": "無効なメールアドレスです。",
+  "PHONE_LENGTH_INVALID": "電話番号は10文字以上11文字以内で入力してください。",
+  "URL_INVALID": "URLの形式が正しくないです。",
+  "PHONE_INVALID": "電話番号が無効です。",
+  "UPLOAD_IMAGE_TYPE_INVALID": " jpeg、jpg、pngのうちいずれかの形式のファイルをアップロードしてください。",
+  "UPLOAD_IMAGE_DIMENTSIONS_INVALID": "{{maxWidth}}x{{maxHeight}}ピクセル以下の画像をアップロードしてください",
+  "UPLOAD_IMAGE_LIMIT_SIZE": "このファイルサイズが{{maxSize}}を超えています。"
+}

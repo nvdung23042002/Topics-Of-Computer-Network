@@ -1,0 +1,12 @@
+{
+  "ENTER_CODE_TITLE": "アフィリエイトコード",
+  "SKIP_ENTER_CODE": "スキップ",
+  "SEND_CODE": "適用する",
+  "ENTER_CODE_SUCCESS_TITLE": "アカウントが正常に作成されました",
+  "ERRORS_AFFILIATE_CODE": "紹介コードは存在しません。",
+  "ERRORS_DUPLICATE_AFFILIATE_CODE": "紹介コードを2回入力することはできません。",
+  "ERRORS_SELF_AFFILIATE_CODE": "自分のためのコードを入力することはできません。",
+  "MAX_LENGTH_INPUT": "{{fieldName}}は{{length}}文字を超えてはいけません。",
+  "FIELD_REQUIRED": "必須項目に入力してください",
+  "SHARED_AFFILIATE_CODE": "共有アフィリエイトコード"
+}

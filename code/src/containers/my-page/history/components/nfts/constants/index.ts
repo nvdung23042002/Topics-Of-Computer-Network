@@ -1,0 +1,6 @@
+export const STATUS_ENUM = {
+  NEW: 'NEW',
+  SUCCESS: 'SUCCESS',
+  OFFERING: 'OFFERING',
+  FAIL: 'FAIL'
+}

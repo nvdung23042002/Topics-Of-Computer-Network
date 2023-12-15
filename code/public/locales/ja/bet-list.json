@@ -1,0 +1,14 @@
+{
+  "TOURNAMENTS": "大会",
+  "MATCH": "試合",
+  "SPONSOR_MONEY": "スポンサー金額",
+  "TICKETS": "チケット数",
+  "TOTAL_SPONSORSHIP": "協賛金総額",
+  "HIDE_BET_SLIP": "ベットスリップを隠す",
+  "SHOW_BET_SLIP": "ベットスリップ",
+  "HOUR": "時",
+  "MINUTE": "分",
+  "MAX_NUMBER_OF_TICKETS_USED": "チケット使用上限枚数",
+  "GRAPH_NUMBER_OF_VOTE": "参加者の投票数別グラフ",
+  "DRAW": "ドロー"
+}

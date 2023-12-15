@@ -1,0 +1,22 @@
+{
+  "NFT_PURCHASE": "NFT Purchase",
+  "NEW_REGISTERED": "New Registered",
+  "MY_AFFILIATE_CODE": "My Affiliate code",
+  "NEW_USER_REGISTRATION_BONUS": "Total new user registration bonus",
+  "NFT_PURCHASE_BONUS": "Total NFTs purchase bonus",
+  "USERNAME": "Username",
+  "REGISTRATION_DATE": "Registration date",
+  "NUMBER_OF_BONUS_TICKETS": "Number of bonus tickets",
+  "NFT_LINK": "NFT link",
+  "DATE_OF_PURCHASE": "Date of purchase",
+  "BONUS_AMOUNT": "Bonus amount",
+  "SHARED_AFFILIATE_CODE": "Shared affiliate code",
+  "APPLY": "Apply",
+  "ERRORS_SELF_AFFILIATE_CODE": "You can't enter code for self",
+  "TICKET": "Ticket",
+  "INSERT_AFFILIATE_CODE_SUCCESS": "Your account has been successfully created",
+  "INSERT_AFFILIATE_CODE_SUCCESS_MESSAGE": "The application of the shared affiliate code has been completed",
+  "ERRORS_AFFILIATE_CODE": "Referral code does not exist",
+  "ERRORS_DUPLICATE_AFFILIATE_CODE": "You cannot enter the referral code twice",
+  "FIELD_REQUIRED": "Please fill in the required fields"
+}

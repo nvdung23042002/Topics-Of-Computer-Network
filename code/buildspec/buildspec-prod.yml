@@ -1,0 +1,27 @@
+version: 0.2
+
+phases:
+  pre_build:
+    commands:
+      - echo "Starting the build..."
+      - aws ecr get-login-password --region ap-northeast-1 | docker login --username AWS --password-stdin 190749975524.dkr.ecr.ap-northeast-1.amazonaws.com
+      - REPOSITORY_URI=190749975524.dkr.ecr.ap-northeast-1.amazonaws.com/nsb-prod-fe-user
+      - echo "Get commit id"
+      - COMMIT_ID=$(echo $CODEBUILD_RESOLVED_SOURCE_VERSION | cut -b -8)
+      - PATH_ENV=env/.env.production
+      - SECRET_NAME=arn:aws:secretsmanager:ap-northeast-1:190749975524:secret:nsb-prod-user-env-ELFAa5
+      - DOCKER_PATH=docker/Dockerfile-prod
+
+  build:
+    commands:
+      - echo "Build started..."
+      - aws secretsmanager get-secret-value --secret-id $SECRET_NAME --query SecretString --output text > $PATH_ENV
+      - docker build -t $REPOSITORY_URI:$COMMIT_ID -f $DOCKER_PATH .
+
+  post_build:
+    commands:
+      - echo "Pushing docker image to Aws ECR"
+      - docker push $REPOSITORY_URI:$COMMIT_ID
+      - printf '[{"name":"nsb-prod-fe-user","imageUri":"%s"}]' $REPOSITORY_URI:$COMMIT_ID > imagedefinitions.json
+artifacts:
+  files: imagedefinitions.json

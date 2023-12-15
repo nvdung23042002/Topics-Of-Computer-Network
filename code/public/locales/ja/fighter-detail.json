@@ -1,0 +1,18 @@
+{
+  "ADDRESS": "出身地",
+  "HEIGHT": "身長",
+  "REACH": "リーチ",
+  "WEIGHT": "体重",
+  "AFFILIATE": "所属",
+  "MATCH_RECORD": "対戦成績",
+  "MATCH_VIDEO": "試合映像",
+  "RELATED_ARTICLE": "関連記事",
+  "SEE_MORE": "もっと見る",
+  "SEE_LESS": "縮小する",
+  "WIN": "勝ち",
+  "LOSE": "負け",
+  "DRAW": "ドロー",
+  "MATCH_WIN": "勝",
+  "MATCH_LOSE": "敗",
+  "MATCH_DRAW": "分け"
+}

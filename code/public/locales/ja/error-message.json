@@ -1,0 +1,12 @@
+{
+  "MORE_THEN_TICKETS": "チケット以上に賭けることはできません",
+  "FIELD_WRONG_FORMAT": "この項目の形式が正しくありません。",
+  "NETWORK_ERROR": "ネットワークエラー",
+  "TIME_OUT": "エラーが発生しました。 もう一度試してください",
+  "ERROR_UNKNOWN": "エラーが発生しました。 もう一度試してください",
+  "400": "不正なリクエスト",
+  "ERRORS_AUTH_USER_04": "アカウントがロックされていますので、管理者に連絡してください。",
+  "ERRORS_AUTH_USER_06": "メールアドレスはすでに存在しますので、他のソーシャル・ネットワークに接続してください。",
+  "ERROR_FILE_NOT_MATCH_FORMAT": "{{fileName}} ファイルはサポートされていない形式です。JPEG、PNG、またはJPGファイルを選択してください。",
+  "ERROR_UPLOAD_FILE_FAILED": "{{fileName}} ファイルのアップロードに失敗しました。"
+}

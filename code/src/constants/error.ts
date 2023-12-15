@@ -1,0 +1,6 @@
+export default {
+  ERROR_RESET_PASSWORD_TOKEN_EXPIRED: 'パスワード再設定のメールに記載しているトークンの有効期限が切れました。',
+  ERROR_CAN_NOT_GET_TRANSACTION_INFORMATION: 'トランザクション情報を取得できません。'
+}
+
+export type ERROR_KEY = 'ERROR_RESET_PASSWORD_TOKEN_EXPIRED' | 'ERROR_CAN_NOT_GET_TRANSACTION_INFORMATION'

@@ -1,0 +1,21 @@
+{
+  "USER_EDIT_PROFILE_TITLE": "プロフィールを編集",
+  "UPDATE_USER_PROFILE_SUCCESS": "プロフィールの更新に成功しました",
+  "EMAIL": "メール",
+  "USER_NAME": "ユーザー名",
+  "LAST_NAME": "姓",
+  "FIRST_NAME": "名",
+  "DATE_OF_BIRTH": "生年月日",
+  "PHONE_NUMBER": "電話番号",
+  "ADDRESS": "住所",
+  "CITY": "市区町村",
+  "BUILDING_NAME": "建物名、部屋番号など (任意)",
+  "ZIP_CODE": "郵便番号",
+  "PREFECTURES": "都道府県",
+  "CANCEL": "キャンセル",
+  "SAVE": "保存",
+  "SUCCESS": "成功",
+  "FIELD_REQUIRED": "必須項目に入力してください",
+  "MAX_LENGTH_INPUT": "{{fieldName}}は{{length}}文字を超えてはいけません。",
+  "CLICK_TO_UPLOAD": "添付ファイル"
+}

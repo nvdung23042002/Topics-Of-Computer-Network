@@ -1,0 +1,78 @@
+export const ROW_KEY = {
+  FIRST_FIGHTER: '1',
+  DRAW: '2',
+  SECOND_FIGHTER: '3'
+}
+
+export const STORAGE_KEY = {
+  I18NLNG: 'i18nextLng',
+  ACCESS_TOKEN: 'access_token',
+  REFRESH_TOKEN: 'refresh_token',
+  CART_ITEMS: 'cartItems',
+  NORMAL_CART_ITEMS: 'normalCartItems',
+  PERSONAL_INFO: 'personalInfo',
+  WEB3_AUTH_INFO: 'web3AuthInfo',
+  W3A_TOKEN: 'web3Token',
+  AUTH_TOKEN: 'auth',
+  SPONSOR_PROFILE: 'sponsorProfile',
+  CURRENT_PATH: 'currentPath'
+}
+
+export const BET_TYPE = {
+  WINNER: 'WINNER',
+  X2: 'X2',
+  DRAW: 'DRAW'
+}
+
+export const LANG_KEY = {
+  JA: 'JA',
+  OTHER: 'OTHER',
+  EN: 'EN'
+}
+
+export const PRICE_RATE = {
+  USD_TO_JPY: 'USD_TO_JPY',
+  ETH_TO_JPY: 'ETH_TO_JPY',
+  USDT_TO_JPY: 'USDT_TO_JPY',
+  PRX_TO_JPY: 'PRX_TO_JPY',
+  TICKET_TO_JPY: 'TICKET_TO_JPY',
+  TICKET_FOR_USER: 'TICKET_FOR_USER',
+  SPONSOR_PERCENTAGE: 'SPONSOR_PERCENTAGE'
+}
+
+export const MEDIA_SCREEN = {
+  LARGE_SIZE: 1200
+}
+
+export const MATCH_STATUS = {
+  LIVE: 'LIVE',
+  ON_GOING: 'ON_GOING',
+  PUBLIC: 'PUBLIC',
+  FINISHED: 'FINISHED'
+}
+
+export const RANK_SPONSOR = {
+  GOLD: 'GOLD',
+  SILVER: 'SILVER',
+  BRONZE: 'BRONZE'
+}
+
+export const GENDER = {
+  MALE: 'MALE',
+  FEMALE: 'FEMALE'
+}
+
+export const BET_ITEM_STATUS = {
+  NEW: 'NEW',
+  COMPLETED_TRANSFERRED: 'COMPLETED_TRANSFERRED',
+  CANCELLED_TRANSFERRED: 'CANCELLED_TRANSFERRED',
+  CANCELLED_TRANSFERRING: 'CANCELLED_TRANSFERRING',
+  COMPLETED_TRANSFERRING: 'COMPLETED_TRANSFERRING'
+}
+
+export const CREDIT_MAX_DOLLAR_AMOUNT = 90000000
+
+export const BET_FREE_STATUS = {
+  ON: 'ON',
+  OFF: 'OFF'
+}

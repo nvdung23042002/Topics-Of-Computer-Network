@@ -1,0 +1,12 @@
+{
+  "ENTER_CODE_TITLE": "Affiliate code",
+  "SKIP_ENTER_CODE": "Skip",
+  "SEND_CODE": "Apply",
+  "ENTER_CODE_SUCCESS_TITLE": "Account has been successfully created",
+  "ERRORS_AFFILIATE_CODE": "Referral code does not exist",
+  "ERRORS_DUPLICATE_AFFILIATE_CODE": "You cannot enter the referral code twice",
+  "ERRORS_SELF_AFFILIATE_CODE": "You cannot enter your own code",
+  "MAX_LENGTH_INPUT": "{{fieldName}} must not exceed {{length}} characters",
+  "FIELD_REQUIRED": "Please fill in the required fields",
+  "SHARED_AFFILIATE_CODE": "Shared affiliate code"
+}

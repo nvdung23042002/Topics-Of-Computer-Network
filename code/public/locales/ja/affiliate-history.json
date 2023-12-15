@@ -1,0 +1,22 @@
+{
+  "NFT_PURCHASE": "NFT購入",
+  "NEW_REGISTERED": "新規登録ユーザー",
+  "MY_AFFILIATE_CODE": "マイアフィリエイトコード",
+  "NEW_USER_REGISTRATION_BONUS": "新規ユーザー登録ボーナス合計",
+  "NFT_PURCHASE_BONUS": "NFTs購入ボーナス合計",
+  "USERNAME": "ユーザー名",
+  "REGISTRATION_DATE": "登録日",
+  "NUMBER_OF_BONUS_TICKETS": "ボーナスチケット数",
+  "NFT_LINK": "NFTリンク",
+  "DATE_OF_PURCHASE": "購入日",
+  "BONUS_AMOUNT": "ボーナス金額(ETH)",
+  "SHARED_AFFILIATE_CODE": "共有アフィリエイトコード",
+  "APPLY": "適用する",
+  "ERRORS_SELF_AFFILIATE_CODE": "自分のためのコードを入力することはできません。",
+  "TICKET": "枚",
+  "INSERT_AFFILIATE_CODE_SUCCESS": "共有アフィリエイトコード適用完了",
+  "INSERT_AFFILIATE_CODE_SUCCESS_MESSAGE": "共有アフィリエイトコードの適用が完了しました。",
+  "ERRORS_AFFILIATE_CODE": "紹介コードは存在しません。",
+  "ERRORS_DUPLICATE_AFFILIATE_CODE": "紹介コードを2回入力することはできません。",
+  "FIELD_REQUIRED": "必須項目に入力してください"
+}

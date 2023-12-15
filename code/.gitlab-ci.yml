@@ -1,0 +1,71 @@
+stages:
+  - install_dependencies
+  - build
+  - deploy
+
+install_dependencies-job:
+  stage: install_dependencies
+  cache:
+    key: ${CI_COMMIT_REF_SLUG}
+    paths:
+      - ./node_modules
+    policy: push
+  before_script:
+    - source ~/.bashrc
+    - source ~/.nvm/nvm.sh
+    - nvm use 16
+  script:
+    - yarn
+  tags:
+    - DEV
+  only:
+    refs:
+      - develop
+    changes:
+      - package.json
+      - package-lock.json
+
+build-job:
+  stage: build
+  cache:
+    key: ${CI_COMMIT_REF_SLUG}
+    paths:
+      - ./node_modules
+    policy: pull
+  before_script:
+    - source ~/.bashrc
+    - source ~/.nvm/nvm.sh
+    - nvm use 16
+  script:
+    - echo "I'm testing my gitlab-runner for nsb-fe-user"
+    - echo "$CI_DEV_ENV_FILE" > .env
+    - yarn build
+  artifacts:
+    expire_in: 10m
+    paths:
+      - .next/
+      - public/
+      - package.json
+  tags:
+    - DEV
+  only:
+    - develop
+
+deploy-job:
+  stage: deploy
+  before_script:
+    - mkdir -p ~/.ssh
+    - eval $(ssh-agent -s)
+    - echo -e "Host *\n\tStrictHostKeyChecking no\n\n" > ~/.ssh/config
+  script:
+    - ssh-add <(echo "$CI_DEV_SSH_KEY")
+    - rsync -ahrvz ./public $CI_DEV_USER@$CI_DEV_IP:$CI_DEV_SOURCE_PATH/
+    - rsync -ahrvz ./package.json $CI_DEV_USER@$CI_DEV_IP:$CI_DEV_SOURCE_PATH/
+    - rsync -ahrvz ./next.config.js $CI_DEV_USER@$CI_DEV_IP:$CI_DEV_SOURCE_PATH/
+    - rsync -ahrvz ./next-i18next.config.js $CI_DEV_USER@$CI_DEV_IP:$CI_DEV_SOURCE_PATH/
+    - rsync -ahrvz ./.next $CI_DEV_USER@$CI_DEV_IP:$CI_DEV_SOURCE_PATH/
+    - ssh -v $CI_DEV_USER@$CI_DEV_IP 'cd /srv/nsb-fe-user && source ~/.nvm/nvm.sh && nvm use 16 && yarn && pm2 reload nsb-fe-user' 2>&1
+  tags:
+    - DEV
+  only:
+    - develop

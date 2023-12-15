@@ -1,0 +1,12 @@
+{
+  "MORE_THEN_TICKETS": "You cannot bet more than your tickets",
+  "FIELD_WRONG_FORMAT": "This item's format is incorrect",
+  "NETWORK_ERROR": "Network Error",
+  "TIME_OUT": "An error occurred. Please try again",
+  "ERROR_UNKNOWN": "An error occurred. Please try again",
+  "400": "Bad request",
+  "ERRORS_AUTH_USER_04": "Your account is locked, please contact the administrator.",
+  "ERRORS_AUTH_USER_06": "Your email address already exists, so connect it to other social networks.",
+  "ERROR_FILE_NOT_MATCH_FORMAT": "{{fileName}} file is in an unsupported format. Please choose a JPEG, PNG, or JPG file",
+  "ERROR_UPLOAD_FILE_FAILED": "Failed to upload the {{fileName}} file."
+}

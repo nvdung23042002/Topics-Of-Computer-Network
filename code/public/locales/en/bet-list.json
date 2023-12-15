@@ -1,0 +1,14 @@
+{
+  "TOURNAMENTS": "Tournaments",
+  "MATCH": "Match",
+  "SPONSOR_MONEY": "Sponsor money",
+  "TICKETS": "Tickets",
+  "TOTAL_SPONSORSHIP": "Total sponsorship amount",
+  "HIDE_BET_SLIP": "Hide bet slip",
+  "SHOW_BET_SLIP": "Bet slip",
+  "HOUR": "hour",
+  "MINUTE": "minute",
+  "MAX_NUMBER_OF_TICKETS_USED": "Max number of tickets used",
+  "GRAPH_NUMBER_OF_VOTE": "Graph number of vote",
+  "DRAW": "Draw"
+}
